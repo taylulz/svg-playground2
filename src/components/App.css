@@ -19,13 +19,7 @@
   to {
     stroke-dashoffset: 50;
     stroke: yellow;
-    transform: rotate(360deg);
-  }
-  to {
-    stroke: green;
-  }
-  to {
-    stroke: brown;
+    /* transform: rotate(360deg); */
   }
 }
 
