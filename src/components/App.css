@@ -6,7 +6,7 @@
   .App-logo {
     stroke: rgb(234, 1, 255);
     stroke-dasharray: 1100;
-    stroke-width: 9;
+    stroke-width: 20;
     animation: spin infinite 4s alternate;
   }
 }
@@ -20,29 +20,26 @@
     /* stroke-dashoffset: 50;
     stroke: yellow; */
     /* transform: rotate(360deg); */
+    stroke-width: 0;
     stroke-dashoffset: 1100;
+    stroke: red;
   }
 }
 
 @media (prefers-reduced-motion: no-preference) {
   #Lfoot {
-    stroke: rgb(0, 0, 0);
+    stroke: red;
     stroke-dasharray: 1100;
-    stroke-width: 9;
-    animation: spin infinite 4s alternate;
+    stroke-width: 3;
+    animation: foot_spin infinite 4s alternate;
   }
 }
 
-@keyframes spin {
-  from {
-    /* transform: rotate(0deg); */
-    /* stroke: blue; */
-  }
+@keyframes foot_spin {
   to {
-    /* stroke-dashoffset: 50;
-    stroke: yellow; */
-    /* transform: rotate(360deg); */
+    stroke: red;
     stroke-dashoffset: 1100;
+    stroke-width: 0;
   }
 }
 
