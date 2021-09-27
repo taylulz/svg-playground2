@@ -5,21 +5,22 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     stroke: rgb(234, 1, 255);
-    stroke-dasharray: 50;
+    stroke-dasharray: 1100;
     stroke-width: 4;
-    animation: spin infinite 2s alternate;
+    animation: spin infinite 4s alternate;
   }
 }
 
 @keyframes spin {
   from {
     /* transform: rotate(0deg); */
-    stroke: blue;
+    /* stroke: blue; */
   }
   to {
-    stroke-dashoffset: 50;
-    stroke: yellow;
+    /* stroke-dashoffset: 50;
+    stroke: yellow; */
     /* transform: rotate(360deg); */
+    stroke-dashoffset: 1100;
   }
 }
 
