@@ -6,7 +6,10 @@
 
   
 
-  <g  fill="#ff8cb4"  
+  <!-- <g  fill="#ff8cb4"  
+      id="tammy" 
+      azimuth="200"> -->
+   <g fill="none"  
       id="tammy" 
       azimuth="200">
 
