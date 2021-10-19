@@ -1,3 +1,1 @@
-Live Deployment [here](https://tammylasorda.com/)
-
-Work in progress. Trying to build cool stuff little by little. 
+Working on SVGs and CSS animations within a React framework.
