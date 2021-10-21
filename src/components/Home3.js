@@ -1,3 +1,4 @@
+import React from 'react';
 import { ReactComponent as Blood } from '../img/magnum209.svg';
 import { Container } from 'react-bootstrap';
 
