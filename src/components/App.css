@@ -2,8 +2,9 @@
   text-align: center;
 }
 
+/* entire svg */
 .App-logo {
-  fill: none;
+  /* fill: none; */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -26,6 +27,8 @@
     /* stroke: red; */
   }
 }
+
+/* Specific parts */
 
 /* @media (prefers-reduced-motion: no-preference) {
   #Lfoot {
