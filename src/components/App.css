@@ -10,10 +10,10 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     stroke: rgb(0, 0, 0);
-    stroke-dasharray: 1100;
+    stroke-dasharray: 5000;
     stroke-width: 20;
     fill: none;
-    animation: spin infinite 4s alternate;
+    animation: spin infinite 4s alternate ease;
   }
 }
 
@@ -23,12 +23,17 @@
   to {
     opacity: 1;
     stroke-width: 0.5;
-    stroke-dashoffset: 1100;
+    stroke-dashoffset: 5000;
     /* stroke: red; */
   }
 }
 
 /* Specific parts */
+
+.inside {
+  fill: none;
+  stroke: red;
+}
 
 /* @media (prefers-reduced-motion: no-preference) {
   #Lfoot {

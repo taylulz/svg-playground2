@@ -9,7 +9,7 @@ function Home3() {
   return (
     <>
       <Container>
-        <Blood className="App-logo" alt="blood"/>
+        <Blood  className="App-logo" alt="blood"/>
       </Container>
     </>
   );
